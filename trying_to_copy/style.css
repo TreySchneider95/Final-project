@@ -1,0 +1,44 @@
+.center{
+    text-align: center;
+}
+.navigation{
+    margin-top: 64px;
+}
+#img1{
+    z-index: 1;
+}
+.btn1{
+    padding-top: 5px;
+}
+.pic_text{
+    margin-top: 290px;
+    z-index: 0;
+}
+.txt1{
+    padding-top: 4px;
+}
+.txt2{
+    padding-top: 7px;
+}
+.box1{
+    opacity: .8;
+    padding: 10px;
+}
+body{
+    background-image: url(images/mowing.jpg);
+}
+.bottomrow{
+    z-index: 0;
+    margin-top: 400px;
+    padding: 60px;
+}
+.pictxt2{
+    margin-top: 100px;
+}
+.img2{
+    height: 120px;
+    width: 140px;
+}
+.row1{
+    margin-top: 20px;
+}

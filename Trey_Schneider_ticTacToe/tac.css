@@ -1,0 +1,108 @@
+body {
+    background-color: grey;
+  }
+  /*------------------------------
+  Heading
+  ------------------------------*/
+  .heading {
+    font-size: 300%;
+    color: black;
+    text-align: center;
+  }
+  /*------------------------------
+  Score Board
+  ------------------------------*/
+  .scoreBoard {
+    display: flex;
+    justify-content: center;
+    position: realitive;
+    margin-bottom: 10px;
+    left: 50%;
+  }
+  .box {
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    border: 5px black solid;
+    background-color: blue;
+    color: black;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    font-size: 200%;
+    box-shadow: 0px 0px 20px 1px;
+  }
+  .score {
+    display: inline;
+  }
+  /*------------------------------
+  Game Container
+  ------------------------------*/
+  .gameContainer {
+    width: 450px;
+    height: 450px;
+    box-shadow: 0px 0px 20px 10px;
+    margin: 0 auto;
+    clear: left;
+  }
+  /*------------------------------
+  Play As
+  ------------------------------*/
+  .playAs{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+  }
+  #choose{
+    font-size: 150%;
+    color: black;
+  }
+  #select {
+    display: inline;
+  }
+  label{
+    background-color: grey;
+    margin: 30px 30px 30px 30px;
+  }
+  #start {
+    width: 110px;
+    height: 30px;
+    margin: 50px 20px 0 20px;
+  }
+  /*------------------------------
+  Game Board
+  ------------------------------*/
+  .gameBoard {
+    display: none;
+  }
+  .gameBoard {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .zone {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    background-color: blue;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    font-size: 65px;
+  }
+  /*------------------------------
+  Reset Button
+  ------------------------------*/
+  .restart{
+    display: flex;
+    justify-content: center;
+  }
+  #reset {
+    width: 110px;
+    height: 30px;
+    margin: 20px;
+    background-color: red;
+  }
+ 

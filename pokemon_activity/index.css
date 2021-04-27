@@ -1,0 +1,20 @@
+.head_box{
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: center;
+}
+.top_words{
+    font-size: larger;
+}
+.images{
+    max-height: 40%;
+    max-width: 40%;
+}
+.col-4{
+ text-align: center;
+ margin-top: 60px;
+}
+#final_img{
+    text-align: center;
+}

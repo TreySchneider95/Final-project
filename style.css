@@ -19,6 +19,17 @@
     background-color: #a7a7a7;
     color: #F9FAFF;
 }
+.body_box1{
+    text-align: center;
+    box-shadow: 2px 2px 4px #2c2c2c;
+    width: 50%;
+    height: 120%;
+    margin-left: 25%;
+    margin-right: auto;
+    display: inline-block;
+    background-color: #a7a7a7;
+    color: #F9FAFF;
+}
 .buttons {
     width: 50%;
     height: 50%;
@@ -69,4 +80,87 @@
     margin-right: 2%;
     background-color: #a7a7a7;
 }
-
+@media only screen and (max-width: 700px) {
+    .center_box{
+        text-align: center;
+        box-shadow: 2px 2px 4px #2c2c2c;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: auto;
+        display: inline-block;
+        background-color: #a7a7a7;
+        color: #F9FAFF;
+    }
+    .body_box{
+        text-align: center;
+        box-shadow: 2px 2px 4px #2c2c2c;
+        width: 50%;
+        height: 120%;
+        margin-left: 25%;
+        margin-right: auto;
+        display: inline-block;
+        background-color: #a7a7a7;
+        color: #F9FAFF;
+    }
+    .buttons {
+        width: 50%;
+        height: 50%;
+        background-color: #afbcfd;
+        border: none;
+        color: #F9FAFF;
+        padding: 7px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+      .buttons:hover {
+        width: 50%;
+        background-color: #c3cdff;
+        border: none;
+        color: #F9FAFF;
+        padding: 7px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.4s;
+      }
+    #professional_summary{
+        font-size: 150%;
+    }
+    .education_list{
+        text-align: left;
+        float: center;
+    }
+    .key_qualifications_list{
+        text-align: left;
+        font-size: 150%;
+    }
+    .work_experience_list{
+        padding-left: 3%;
+        padding-right: 3%;
+        text-align: left;
+    }
+    .side_menu{
+        text-align: center;
+        box-shadow: 2px 2px 4px #2c2c2c;
+        width: 40%;
+        float: right;
+        margin-right: auto;
+        background-color: #a7a7a7;
+    }
+    .body_box1{
+        text-align: center;
+        box-shadow: 2px 2px 4px #2c2c2c;
+        width: 50%;
+        height: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        background-color: #a7a7a7;
+        color: #F9FAFF;
+    }
+}
